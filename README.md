@@ -30,6 +30,8 @@ vehicle=dronekit.connect(connection_string, wait_ready=True, baud=115200)
 print("Mode: %s" % vehicle.mode.name)
 ```
 
+Connect Pixhawk to Raspberry Pi with USB port
+
 ## Licence
 
 DroneKit-Python is made available under the permissive open source [Apache 2.0 License](http://python.dronekit.io/about/license.html). 
